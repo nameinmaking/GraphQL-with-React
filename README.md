@@ -13,3 +13,8 @@ A repository for graphQL practice, learning and mastering GraphQL by building re
 
 ## Project Initialization
 * npm init
+* npm install --save express express-graphql graphql lodash
+
+
+## Running the Project
+* node server.js

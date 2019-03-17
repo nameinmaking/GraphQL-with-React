@@ -1,19 +1,31 @@
 {
-  "name": "graphql",
+  "name": "graphql-with-react",
   "version": "1.0.0",
-  "description": "graphQL practice -- Udemy - GraphQL with React: The Complete Developers Guide",
+  "description": "graphQL practice",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vipul018/graphQL.git"
+    "url": "git+https://github.com/vipul018/GraphQL-with-React.git"
   },
+  "keywords": [
+    "GraphQL",
+    "ReactJS",
+    "lodash",
+    "graphiQL"
+  ],
   "author": "Vipul Sharma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vipul018/graphQL/issues"
+    "url": "https://github.com/vipul018/GraphQL-with-React/issues"
   },
-  "homepage": "https://github.com/vipul018/graphQL#readme"
+  "homepage": "https://github.com/vipul018/GraphQL-with-React#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.11"
+  }
 }
